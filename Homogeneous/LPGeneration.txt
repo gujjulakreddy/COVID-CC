@@ -1,0 +1,42 @@
+# Covid-19 LP Generation Input File
+# Authors: J
+# Date: June 02, 2020
+# minimum coverage
+1526483.77
+# fraction
+0.975
+# Reproduction number
+1
+# Formulation type 0<-default, 1<- alpha_e, alpha_s
+1
+# Number of communities to include in the lp
+7
+# Community zip code
+00001
+00002
+00003
+00004
+00005
+00006
+00007
+# alpha_e bounds
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+# alpha_s bounds
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+0.02
+ENDATA
+
+
+
+

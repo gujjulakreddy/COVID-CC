@@ -1,0 +1,18 @@
+# Covid-19 Input File
+# Authors: J
+# Date: June 02, 2020
+# Number of household types 
+7
+# Number of communities
+7
+# row.names          id Geographic.Area.Name Total Total..1.person.household Total..2.person.household Total..3.person.household4.person.household Total..5.person.household Total..6.person.household Total..7.or.more.person.household
+1 8710000US4878724 ZCTA5 00001	Travis  	458484	143380	150814	66964	58341	25205	8375	5405
+2 8710000US4878719 ZCTA5 00002	Williamson	174754	39008	56985	30792	29327	12407	4250	1985
+3 8710000US4878719 ZCTA5 00003  Hays		70881	16219	24797	12172	9803	4752	1739	1399
+4 8710000US4878719 ZCTA5 00004  Bastrop		25345	5994	8235	3815	3706	2182	766	647
+5 8710000US4878719 ZCTA5 00005  Burnet		16849	3970	7174	2480	1970	737	276	242
+6 8710000US4878719 ZCTA5 00006  Caldwell	13225	3047	4507	2079	1826	853	642	271
+7 8710000US4878719 ZCTA5 00007  Blanco		4297	912	2009	651	361	268	36	60     
+ENDATA
+
+
