@@ -64,7 +64,7 @@ Saving Program Output:
 #### Contributors: Jiangyue Gong and Lewis Ntaimo
 
 #### Prerequistes 
-Read How_to_Cplex12.doc
+Read [How_to_Cplex12.doc](https://github.com/gujjulakreddy/COVID-CC/blob/master/How_to_Cplex12.docx)
 
 
 
