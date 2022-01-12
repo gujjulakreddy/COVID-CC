@@ -58,7 +58,6 @@ HeterScenario.txt: Input file that contains instance scenario parameters. The mo
 6) To run program, press enter.
 
 #### Saving Program Output:
-===================================================================================== 
 1) Open dep.lp and dep.sol files
 2) Use the save as command from the file menu to save the files using a different name of your choice.
 
