@@ -7,14 +7,14 @@ In a homogeneous population model we assume there are no significant age-related
 The files in this Homogeneous folder contain the C++ source code, header and instance input files. C++ source and header files include myCovid.cpp, stdafx.cpp and stdafx.h. In addition, the output of the this program is written to dep.lp and dep.sol which are overwritten anytime the code is running. The file dep.lp writes the dep formulation of the instance and dep.sol outputs the solution for current formulation. If you wish to save the output from running the program, dep.lp and dep.sol must each be saved as a different file after completing a fun. 
 
 #### Installation: 
-Download save and open the files. Follow directions in How_to Cplex12 to set up Microsoft Visual Studio project that links with Cplex 12. 
+Download, save and open the files. Follow directions in How_to Cplex12 to set up Microsoft Visual Studio project that links with Cplex 12. 
 
 #### File Descriptions: 
 Stdafx.h: A precompiled header file that includes standard system that are used frequently.
 Stdafx.cpp: To include stdafx.h in the project.
 myCovid.cpp: Main file from which the project can run. Contains steps to setup cplex environment, read instance input, steps to create the instance, solve the instance, output instance formulation and solution.
 Household_Homo.txt: Input file that contains the demographic information of the seven counties in Austin area.
-LpGeneration.txt: Input file that shows the parameter settings for an instance. Formulation model parameter can be modified in this file to create limited or unlimited model.
+LpGeneration.txt: Input file that shows the parameter settings for an instance. Formulation type parameter can be modified in this file to create limited or unlimited model.
 Scenario.txt: Input file that contains instance scenario parameters. Reliability level can be changed in this file.
 
 #### USAGE: 
@@ -36,7 +36,7 @@ Scenario.txt: Input file that contains instance scenario parameters. Reliability
 In the heterogeneous population model, we assume that there are significant age-related differences in
 the susceptibility and infectivity of individuals in all the communities involved.
 #### Introduction
-The files in Heterogeneous folder contain the C++ source code, header and instance input files. C++ source and header files include Hetero.cpp, stdafx.cpp and stdafx.h. In addition, the output of the this program is written to dep.lp and dep.sol which are overwritten anytime the code is running. The file dep.lp writes the dep formulation of the instance and dep.sol outputs the solution for current formulation. If you wish to save the output from running the program, dep.lp and dep.sol must each be saved as a different file after completing a fun. 
+The files in Heterogeneous folder contain the C++ source code, header and instance input files. C++ source and header files include Hetero.cpp, stdafx.cpp and stdafx.h. In addition, the output of the this program is written to dep.lp and dep.sol which are overwritten anytime the code is running. The file dep.lp writes the dep formulation of the instance and dep.sol outputs the solution for current formulation. If you wish to save the output from running the program, dep.lp and dep.sol must be saved as a different file after completing a fun. 
 
 #### Installation: 
 Download save and open the files. Follow directions in How_to Cplex12 to set up Microsoft Visual Studio project that links with Cplex 12. 
@@ -47,7 +47,7 @@ Stdafx.cpp: To include stdafx.h in the project.
 Hetero.cpp: Main file from which the project can run. Contains steps to setup cplex environment, read instance input, steps to create the instance, solve the instance, output instance formulation and solution.
 HeteroHousehold.txt: Input file that contains the demographic information of the seven counties in Austin area.
 HeteroLp.txt: Input file that shows the parameter settings for an instance. Formulation model parameter can be modified in this file to create limited or unlimited model.
-HeterScenario.txt: Input file that contains instance scenario parameters. Reliability level can be changed in this file.
+HeteroScenario.txt: Input file that contains instance scenario parameters. Reliability level can be changed in this file.
 
 #### USAGE: 
 1) Open the Hetero project. Then build and compile.
